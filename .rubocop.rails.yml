@@ -1,0 +1,18 @@
+Rails:
+  Enabled: true
+
+Metrics/BlockLength:
+  Exclude:
+    - "config/environments/*.rb"
+    - "config/routes.rb"
+    - "spec/rails_helper.rb"
+
+Rails/Delegate:
+  Enabled: false
+
+Style/EmptyLinesAroundBlockBody:
+  Exclude:
+    # The DSLs here often benefit from additional whitespace
+    # that is not appropriate elsewhere.
+    - "config/routes.rb"
+    - "spec/**/*"
