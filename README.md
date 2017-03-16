@@ -1,5 +1,7 @@
 # Intercom RuboCop
 
+A base RuboCop configuration for use on all Intercom Ruby projects.
+
 ## Installation
 
 Add the gem to the `development` and `test` groups in your Gemfile.
