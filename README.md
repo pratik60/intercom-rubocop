@@ -8,7 +8,7 @@ Add the gem to the `development` and `test` groups in your Gemfile.
 
 ```ruby
 group :development, :test do
-  gem "intercom-rubocop"
+  gem "intercom-rubocop", require: false
 end
 ```
 
