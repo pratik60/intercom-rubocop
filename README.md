@@ -24,14 +24,14 @@ Inherit from the RuboCop configuration in this gem. If it’s a Rails app use th
 
 ```yaml
 inherit_gem:
-  intercom-rubocop: ".rubocop.rails.yml"
+  intercom-rubocop: "config/rails.yml"
 ```
 
 If it’s a Ruby library use the regular configuration.
 
 ```yaml
 inherit_gem:
-  intercom-rubocop: ".rubocop.yml"
+  intercom-rubocop: "config/default.yml"
 ```
 
 ## Usage
